@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
@@ -40,16 +40,24 @@
 				<dict>
 					<key>begin</key>
 					<string>\{</string>
-					<key>captures</key>
+					<key>beginCaptures</key>
 					<dict>
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.options.antlr</string>
+							<string>punctuation.section.options.begin.antlr</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>\}</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.options.end.antlr</string>
+						</dict>
+					</dict>
 					<key>name</key>
 					<string>meta.options-block.antlr</string>
 					<key>patterns</key>
@@ -184,16 +192,24 @@
 				<dict>
 					<key>begin</key>
 					<string>/\*</string>
-					<key>captures</key>
+					<key>beginCaptures</key>
 					<dict>
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.antlr</string>
+							<string>punctuation.definition.comment.begin.antlr</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>\*/</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.end.antlr</string>
+						</dict>
+					</dict>
 					<key>name</key>
 					<string>comment.block.antlr</string>
 				</dict>
@@ -217,16 +233,24 @@
 		<dict>
 			<key>begin</key>
 			<string>\{</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.group.antlr</string>
+					<string>punctuation.section.group.begin.antlr</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>\}</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.group.end.antlr</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>source.embedded.java-or-c.antlr</string>
 			<key>patterns</key>
