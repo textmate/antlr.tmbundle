@@ -419,7 +419,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>\\(u\h{4}|.)</string>
+							<string>\\(u[0-9A-Fa-f]{4}|.)</string>
 							<key>name</key>
 							<string>constant.character.escape.antlr</string>
 						</dict>
@@ -452,7 +452,7 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>\\(u\h{4}|.)</string>
+							<string>\\(u[0-9A-Fa-f]{4}|.)</string>
 							<key>name</key>
 							<string>constant.character.escape.antlr</string>
 						</dict>
