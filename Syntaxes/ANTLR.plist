@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>g</string>
+		<string>g4</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~A</string>
